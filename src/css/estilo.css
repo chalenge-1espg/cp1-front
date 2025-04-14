@@ -84,7 +84,8 @@ button:hover{
 aside{
     width: 200px;
     padding: 10px;
-    background: #f8f8f8;
+    background: white;
+    outline: 2px solid rgb(0, 0, 0);
 
 
 }
