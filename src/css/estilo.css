@@ -87,7 +87,6 @@ aside{
     background: white;
     outline: 2px solid rgb(0, 0, 0);
 
-
 }
 footer{
     background: rgb(116, 25, 37);
@@ -114,6 +113,9 @@ footer-content ul{
 .footer-content a{
     color: #ddd;
     text-decoration: none;
+}
+.filtro ul a{
+    color: rgb(116, 25, 37) ;
 }
 @media(max-width:768px){
     header nav ul{
