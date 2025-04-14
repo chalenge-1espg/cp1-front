@@ -13,20 +13,26 @@ body{
     min-height: 100vh;
 }
 header{
+    background: rgb(116, 25, 37);
+    color: #f4f4f4;
+    padding: 20px;
     display: flex;
-    padding: 10px;
-    background:rgb(116, 25, 37);
 }
- header nav ul li a{
-    color: whitesmoke;
-    text-decoration: none;
-    text-transform:uppercase;
-    padding: 10px 5px ;
- }
- header nav ul li a :hover {
-    text-decoration: underline 5px white;
-
- }
+header nav ul{
+    list-style: none;
+    padding: 0;
+    /* top,bottom E right,left  */
+    margin: 10px 0;
+    display: flex;
+}
+header nav ul li a{
+    color: #fff;
+    text-transform: uppercase;
+    padding: 5px 10px;
+}
+header nav ul li a:hover{
+    text-decoration: underline 5px Lavender;
+}
 
 
 #conteudo{
@@ -83,7 +89,10 @@ aside{
 
 }
 footer{
-    background: black;
+    background: rgb(116, 25, 37);
+    color: #fff;
+    padding: 20px 0;
+    margin-top: auto;
 }
 .footer-content{
     display: flex;
