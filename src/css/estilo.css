@@ -1,0 +1,18 @@
+*{
+    margin: 10px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: azure;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header{
+    display: flex;
+    padding: 10px;
+    background: antiquewhite;
+}
